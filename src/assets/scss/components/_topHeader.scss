@@ -1,3 +1,57 @@
 .top-header {
-  padding: 10px 0;
+  padding-top: 5px;
+  &::after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+  }
+  .topHeader_item {
+    ul {
+      li {
+        display: inline-block;
+        margin-left: 15px;
+        &:first-child {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+  .header_social_links {
+    li {
+      display: inline-block;
+      padding: 0px 7px;
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 0px;
+      &.facebook {
+        background: #3b5998;
+      }
+      &.twitter {
+        background: #00aced;
+      }
+      &.youtube {
+        background: #bb0000;
+      }
+      a {
+        color: #ffffff;
+        font-size: 13px;
+      }
+    }
+  }
+  .topHeader_detail {
+    li {
+      color: #555555;
+      span {
+        display: inline-block;
+        padding-right: 7px;
+        color: $base-color;
+      }
+    }
+  }
 }

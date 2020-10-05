@@ -7,9 +7,13 @@ const AllProducts = () => {
   return (
     <section className="section product-section bg-gray">
       <div className="container">
-        <Title title="Featured Products" className="text-center" />
+        <Title
+          title="Featured Products"
+          className="text-center"
+          bgTitle="Featured Product"
+        />
         <div className="product_wrapper">
-          <Products />
+          <Products slider />
         </div>
       </div>
     </section>

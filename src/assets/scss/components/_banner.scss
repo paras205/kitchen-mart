@@ -1,3 +1,57 @@
+.banner-wrapper {
+  overflow: hidden;
+  .slick-next {
+    right: 0px;
+    &::before {
+      content: "\f178";
+      font-family: FontAwesome;
+      font-size: 16px;
+    }
+  }
+  .slick-prev {
+    left: 0px;
+    z-index: 99;
+    &::before {
+      content: "\f177";
+      font-family: FontAwesome;
+      font-size: 16px;
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    width: 35px;
+    height: 70px;
+    text-align: center;
+    line-height: 80px;
+    background: $secondary-color;
+    opacity: 0.4;
+    @include transitions(300ms, ease-in);
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .slick-dots {
+    bottom: 20px;
+    z-index: 99;
+  }
+  .slick-dots li button::before {
+    color: #ffffff;
+  }
+}
 .banner-item {
-  height: 550px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner-content {
+    color: #ffffff;
+    h1 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
 }

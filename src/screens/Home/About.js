@@ -9,7 +9,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <Title title="WHO WE ARE" />
+            <Title title="WHO WE ARE" bgTitle="Who we are" />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

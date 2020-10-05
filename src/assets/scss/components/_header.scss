@@ -1,13 +1,27 @@
 .navbar-bg {
   background: transparent !important;
   .navbar-brand {
-    color: $span-color !important;
-    font-weight: 600;
+    img {
+      width: 120px;
+    }
   }
   .nav-item {
+    padding: 10px 20px;
+    &:last-child {
+      padding-right: 0px;
+    }
     .nav-link {
       color: $span-color !important;
       font-weight: 600;
+
+      -o-transition: all 300ms ease-in;
+      -webkit-transition: all 300ms ease-in;
+      -moz-transition: all 300ms ease-in;
+      transition: all 300ms ease-in;
+      &:hover,
+      &:active {
+        color: $secondary-color !important;
+      }
     }
   }
 }

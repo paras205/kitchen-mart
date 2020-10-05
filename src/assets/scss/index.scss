@@ -1,10 +1,13 @@
 @import "./variables";
 @import "./base";
+@import "./mixin";
 
 @import "./components/topHeader";
+@import "./components/title";
 @import "./components/header";
 @import "./components/footer";
 @import "./components/button";
+@import "./components/testimonial";
 @import "./components/product";
 @import "./components/banner";
 

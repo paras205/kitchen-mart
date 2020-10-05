@@ -5,9 +5,13 @@ import Products from "../../components/Products";
 
 const NewProducts = () => {
   return (
-    <section className="section product-section new_arrival_section">
+    <section className="section bg-gray product-section new_arrival_section">
       <div className="container">
-        <Title title="New arrival Products" className="text-center" />
+        <Title
+          title="New arrival Products"
+          className="text-center"
+          bgTitle="New Arrival"
+        />
         <Products className="box-shadow" />
       </div>
     </section>

@@ -5,9 +5,13 @@ import ClientItems from "../../components/Clients";
 
 const Clients = () => {
   return (
-    <section className="section client-section bg-gray">
+    <section className="section client-section">
       <div className="container">
-        <Title title="We work with" className="text-center" />
+        <Title
+          title="We work with"
+          className="text-center"
+          bgTitle="We work with"
+        />
         <ClientItems />
       </div>
     </section>

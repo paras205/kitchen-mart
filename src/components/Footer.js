@@ -16,6 +16,8 @@ const Footer = () => {
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
+                survived not only five centuries, but also the leap into
+                electronic typesetting
               </p>
             </div>
           </div>
@@ -50,7 +52,26 @@ const Footer = () => {
                 <li>Email: abc@gmail.com</li>
               </ul>
               <ul className="social_media">
-                <li></li>
+                <li className="facebook">
+                  <Link to="/">
+                    <i className="fa fa-facebook" />
+                  </Link>
+                </li>
+                <li className="twitter">
+                  <Link to="/">
+                    <i className="fa fa-twitter" />
+                  </Link>
+                </li>
+                <li className="youtube">
+                  <Link to="/">
+                    <i className="fa fa-youtube" />
+                  </Link>
+                </li>
+                <li className="instagram">
+                  <Link to="/">
+                    <i className="fa fa-instagram" />
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
