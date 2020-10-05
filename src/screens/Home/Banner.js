@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Button from "../../components/Button";
 import BannerOne from "../../assets/images/slider02.jpg";
 import BannerTwo from "../../assets/images/slider03.jpg";
 
@@ -52,6 +53,12 @@ const Banner = () => {
                     <h3>
                       Nepal's leading manufacturer of Food Preparation Equipment
                     </h3>
+                    <Button
+                      type="link"
+                      label="View All"
+                      className="view_all"
+                      linkTo="/"
+                    />
                   </div>
                 </div>
               </div>
@@ -71,6 +78,12 @@ const Banner = () => {
                     <h3>
                       Nepal's leading manufacturer of Food Preparation Equipment
                     </h3>
+                    <Button
+                      type="link"
+                      label="View All"
+                      className="view_all"
+                      linkTo="/"
+                    />
                   </div>
                 </div>
               </div>

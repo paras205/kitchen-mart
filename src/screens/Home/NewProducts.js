@@ -2,6 +2,7 @@ import React from "react";
 
 import Title from "../../components/Title";
 import Products from "../../components/Products";
+import Button from "../../components/Button";
 
 const NewProducts = () => {
   return (
@@ -13,6 +14,7 @@ const NewProducts = () => {
           bgTitle="New Arrival"
         />
         <Products className="box-shadow" />
+        <Button type="link" label="View All" className="view_all" linkTo="/" />
       </div>
     </section>
   );

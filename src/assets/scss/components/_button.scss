@@ -7,3 +7,88 @@
   border-radius: 4px;
   overflow: hidden;
 }
+.view_all {
+  background-image: repeating-linear-gradient(
+      333deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(90deg, rgb(130, 26, 221), rgb(63, 178, 202));
+  color: #ffffff;
+  padding: 17px 45px;
+  font-size: 18px;
+  display: inline-block;
+  @include transitions(300ms, ease-in);
+  &:hover {
+    animation: shake 0.6s infinite;
+    color: #ffffff;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(1px, 1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, -1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(2px, -1px) rotate(2deg);
+  }
+  100% {
+    transform: translate(-1px, 1px) rotate(-1deg);
+  }
+}
