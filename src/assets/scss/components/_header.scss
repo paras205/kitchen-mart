@@ -1,0 +1,13 @@
+.navbar-bg {
+  background: transparent !important;
+  .navbar-brand {
+    color: $span-color !important;
+    font-weight: 600;
+  }
+  .nav-item {
+    .nav-link {
+      color: $span-color !important;
+      font-weight: 600;
+    }
+  }
+}
