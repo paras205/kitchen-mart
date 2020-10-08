@@ -1,9 +1,9 @@
 import React from "react";
 
-import Title from "../../components/Title";
-import ClientItems from "../../components/Clients";
+import Title from "../Title";
+import ClientItems from "./Clients";
 
-const Clients = () => {
+const index = () => {
   return (
     <section className="section client-section">
       <div className="container">
@@ -18,4 +18,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default index;

@@ -1,11 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import ProductItem from "./ProductItem";
 
-const Products = ({ slider }) => {
+const Products = ({ slider, itemClass }) => {
   var settings = {
     dots: true,
     infinite: true,
@@ -31,28 +29,28 @@ const Products = ({ slider }) => {
   } else {
     return (
       <div className="row">
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
-        <div className="col-md-3">
+        <div className={`col-md-${itemClass ? itemClass : 4}`}>
           <ProductItem />
         </div>
       </div>

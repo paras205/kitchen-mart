@@ -29,22 +29,22 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item  active">
-              <Link className="nav-link text-uppercase" to="/">
+              <Link className="nav-link text-uppercase" to="/about-us">
                 About Us
               </Link>
             </li>
             <li className="nav-item  active">
-              <Link className="nav-link text-uppercase" to="/">
+              <Link className="nav-link text-uppercase" to="/products">
                 Products
               </Link>
             </li>
             <li className="nav-item  active">
-              <Link className="nav-link text-uppercase" to="/">
+              <Link className="nav-link text-uppercase" to="/services">
                 Services
               </Link>
             </li>
             <li className="nav-item  active">
-              <Link className="nav-link text-uppercase" to="/">
+              <Link className="nav-link text-uppercase" to="/contact-us">
                 Contact Us
               </Link>
             </li>

@@ -3,9 +3,9 @@ import React from "react";
 import Banner from "./Banner";
 import HomeAbout from "./About";
 import FeaturedProducts from "./Featured";
-import Testimonials from "./Testimonial";
+import Testimonials from "../../components/testimonials";
 import NewProducts from "./NewProducts";
-import Clients from "./Clients";
+import Clients from "../../components/clients";
 
 const Home = () => {
   return (
@@ -13,8 +13,8 @@ const Home = () => {
       <Banner />
       <HomeAbout />
       <FeaturedProducts />
-      <Testimonials />
       <NewProducts />
+      <Testimonials />
       <Clients />
     </>
   );

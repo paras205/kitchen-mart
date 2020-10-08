@@ -1,9 +1,9 @@
 import React from "react";
 
-import Title from "../../components/Title";
-import TestimonialItem from "../../components/Testimonial";
+import Title from "../Title";
+import TestimonialItem from "./Testimonial";
 
-const Testimonial = () => {
+const index = () => {
   return (
     <section className="section testimonial-wrapper">
       <div className="container">
@@ -23,4 +23,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default index;

@@ -1,14 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-import Client_one from "../assets/images/client_one.jpg";
-import Client_two from "../assets/images/client_two.png";
-import Client_three from "../assets/images/client_three.png";
-import Client_four from "../assets/images/client_four.png";
-import Client_five from "../assets/images/client_five.png";
-import Client_six from "../assets/images/client_six.png";
+import Client_one from "../../assets/images/client_one.jpg";
+import Client_two from "../../assets/images/client_two.png";
+import Client_three from "../../assets/images/client_three.png";
+import Client_four from "../../assets/images/client_four.png";
+import Client_five from "../../assets/images/client_five.png";
+import Client_six from "../../assets/images/client_six.png";
 
 const Clients = (props) => {
   var settings = {

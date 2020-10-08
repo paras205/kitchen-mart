@@ -9,6 +9,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Homepage from "./screens/Home";
+import ProductDetail from "./screens/Detail";
+import AboutPage from "./screens/About";
+import ContactPage from "./screens/Contact";
+import ServicePage from "./screens/service";
+import ProductPage from "./screens/products";
 
 function App() {
   return (
@@ -18,7 +23,12 @@ function App() {
           <TopHeader />
           <Header />
           <Switch>
-            <Route path="/" component={Homepage} />
+            <Route path="/product/:id" exact component={ProductDetail} />
+            <Route path="/about-us" exact component={AboutPage} />
+            <Route path="/services" exact component={ServicePage} />
+            <Route path="/products" exact component={ProductPage} />
+            <Route path="/contact-us" exact component={ContactPage} />
+            <Route path="/" exact component={Homepage} />
           </Switch>
           <Footer />
         </div>

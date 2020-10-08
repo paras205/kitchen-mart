@@ -1,0 +1,40 @@
+.product_list_wrapper {
+  .product-item {
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 1px rgba(0, 0, 0, 0.06);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+  }
+}
+.product_sidebar {
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 1px rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+
+  position: sticky;
+  top: 20px;
+  ul {
+    li {
+      color: #555555;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #dddddd;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 15px;
+      cursor: pointer;
+      font-size: 15px;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "\f101";
+        font-family: FontAwesome;
+        right: 15px;
+        top: 15px;
+      }
+      @include transitions(300ms, ease-in);
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

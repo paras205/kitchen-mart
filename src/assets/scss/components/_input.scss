@@ -1,0 +1,17 @@
+.form-group {
+  label {
+    font-size: 14px;
+    color: #555555;
+  }
+  .form-control {
+    box-shadow: none;
+    //   border-radius: 0px;
+    height: 40px;
+    font-size: 14px;
+  }
+  textarea {
+    &.form-control {
+      height: 120px;
+    }
+  }
+}

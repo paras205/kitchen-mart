@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
-import BannerOne from "../assets/images/banner-one.jpg";
+import BannerOne from "../../assets/images/banner-one.jpg";
 
 const Testimonial = () => {
   const settings = {
