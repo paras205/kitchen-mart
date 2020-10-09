@@ -1,0 +1,23 @@
+.specification_table {
+  table {
+    width: 100%;
+    th {
+      background: #eef5f9;
+      padding: 10px;
+      border: 1px solid #dddddd;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    tr {
+      &:nth-child(even) {
+        td {
+          background: #f7f7f7;
+        }
+      }
+      td {
+        padding: 10px;
+        border: 1px solid #dddddd;
+      }
+    }
+  }
+}

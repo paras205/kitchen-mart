@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import Detail from "./Detail";
 import Form from "./Form";
 import Map from "../../components/Map";
+import contact_bg from "../../assets/images/contact_bg.jpg";
 
 const ContactPage = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const ContactPage = () => {
   }, []);
   return (
     <div className="innerpage_wrapper">
-      <Breadcrumb title="Contact us" />
+      <Breadcrumb title="Contact us" backgroundImage={contact_bg} />
       <section className="section contact_detail_wrapper bg-gray">
         <div className="container">
           <div className="row">

@@ -7,6 +7,7 @@ import store from "./store/store";
 import TopHeader from "./components/TopHeader";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Homepage from "./screens/Home";
 import ProductDetail from "./screens/Detail";
@@ -31,6 +32,7 @@ function App() {
             <Route path="/" exact component={Homepage} />
           </Switch>
           <Footer />
+          <ScrollToTop />
         </div>
       </Router>
     </Provider>
